@@ -1,2 +1,2 @@
 # MastersThesis_WeedDetection_RGB-NIR
-Enhancing Weed Detectiona and segmentation using Advanced Deep Learing methods Leveraging RGB-NIR imaging
+Enhancing Weed Detection and segmentation using Advanced Deep Learning methods Leveraging RGB-NIR imaging
