@@ -9,11 +9,11 @@ The project addresses improving weed detection and segmentation by integrating N
 # Notebooks
 The repository includes the following notebooks that demonstrate different parts of the research:
 
-** 1. G+NIR.ipynb
+# 1. G+NIR.ipynb
 Description: This notebook focuses on the use of Green (G) and NIR spectral data to perform segmentation tasks. Various image processing techniques and a U-Net-based model are applied.
 Key Methods: Image pre-processing, U-Net segmentation on G+NIR data.
 
-** 2. G+NIR+NDVI.ipynb
+# 2. G+NIR+NDVI.ipynb
 Description: This notebook expands the previous one by adding the NDVI (Normalized Difference Vegetation Index) feature for segmentation. It explores how NDVI data can be used to enhance weed detection.
 Key Methods: U-Net model with G+NIR+NDVI channels for improved weed segmentation.
 
@@ -29,18 +29,20 @@ Key Methods: YOLOv5 for weed detection, training with different image resolution
 Description: This notebook extends the object detection work using the YOLOv8 model, improving the detection accuracy and speed.
 Key Methods: YOLOv8 model, real-time weed detection with RGB images.
 
-# Dataset
+# Datasets
 ACRE Dataset: The primary dataset used for object detection tasks, split into training, validation, and testing sets. Images were pre-processed using Roboflow and augmented to enhance training.
 Sunflower Dataset: Used for segmentation tasks, with images representing different growth stages. NDVI and NIR data were applied for better segmentation.
-Installation
+
+# Installation
 To run the notebooks, you will need Python 3.6 or higher and the following dependencies:
 
-1. Clone the Repository
+ ``` 1. Clone the Repository
 bash
 Copy code
 git clone https://github.com/yourusername/yourrepository.git
 cd yourrepository
-2. Install the Required Dependencies
+
+# 2. Install the Required Dependencies
 bash
 Copy code
 pip install flask transformers datasets tensorflow yolov5 yolov8 scikit-image
