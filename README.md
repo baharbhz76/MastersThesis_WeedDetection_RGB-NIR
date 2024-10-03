@@ -9,7 +9,7 @@ The project addresses improving weed detection and segmentation by integrating N
 # Notebooks
 The repository includes the following notebooks that demonstrate different parts of the research:
 
-# 1. G+NIR.ipynb
+## ** 1. G+NIR.ipynb**
 Description: This notebook focuses on the use of Green (G) and NIR spectral data to perform segmentation tasks. Various image processing techniques and a U-Net-based model are applied.
 Key Methods: Image pre-processing, U-Net segmentation on G+NIR data.
 
