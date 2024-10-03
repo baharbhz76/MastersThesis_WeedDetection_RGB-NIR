@@ -30,8 +30,8 @@ Description: This notebook extends the object detection work using the YOLOv8 mo
 Key Methods: YOLOv8 model, real-time weed detection with RGB images.
 
 # Datasets
-ACRE Dataset: The primary dataset used for object detection tasks, split into training, validation, and testing sets. Images were pre-processed using Roboflow and augmented to enhance training.
-Sunflower Dataset: Used for segmentation tasks, with images representing different growth stages. NDVI and NIR data were applied for better segmentation.
+- ACRE Dataset: The primary dataset used for object detection tasks, split into training, validation, and testing sets. Images were pre-processed using Roboflow and augmented to enhance training.
+- Sunflower Dataset: Used for segmentation tasks, with images representing different growth stages. NDVI and NIR data were applied for better segmentation.
 
 # Installation
 To run the notebooks, you will need Python 3.6 or higher and the following dependencies:
@@ -58,15 +58,16 @@ Run the cells to reproduce the results of the thesis.
 # Results
 The key findings of the thesis are as follows:
 
-RGB+NIR Models: By integrating NIR data with RGB, the U-Net model achieved superior segmentation accuracy, particularly for distinguishing weeds from crops.
-YOLOv8 Object Detection: YOLOv8 outperformed YOLOv5 for real-time object detection tasks, providing higher precision in detecting weeds using RGB data alone.
+- RGB+NIR Models: By integrating NIR data with RGB, the U-Net model achieved superior segmentation accuracy, particularly for distinguishing weeds from crops.
+  
+- YOLOv8 Object Detection: YOLOv8 outperformed YOLOv5 for real-time object detection tasks, providing higher precision in detecting weeds using RGB data alone.
 NDVI Impact: Adding NDVI data marginally improved segmentation performance, particularly in more challenging scenarios where weeds and crops had similar visual characteristics.
 # Contributors
-Candidate: Bahareh Behrouzi
+- Candidate: Bahareh Behrouzi
 
-Supervisors: Prof. Renato Ferrero, Dr. Nicola Dilillo
+- Supervisors: Prof. Renato Ferrero, Dr. Nicola Dilillo
 
-Institution: Politecnico di Torino
+- Institution: Politecnico di Torino
 
 # License
 This project is licensed under the MIT License.
