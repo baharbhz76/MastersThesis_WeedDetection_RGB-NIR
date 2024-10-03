@@ -63,7 +63,9 @@ YOLOv8 Object Detection: YOLOv8 outperformed YOLOv5 for real-time object detecti
 NDVI Impact: Adding NDVI data marginally improved segmentation performance, particularly in more challenging scenarios where weeds and crops had similar visual characteristics.
 # Contributors
 Candidate: Bahareh Behrouzi
+
 Supervisors: Prof. Renato Ferrero, Dr. Nicola Dilillo
+
 Institution: Politecnico di Torino
 
 # License
