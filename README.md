@@ -1,7 +1,7 @@
 # MastersThesis_WeedDetection_RGB-NIR
 Enhancing Weed Detection and Segmentation with Advanced Deep Learning Methods Leveraging RGB-NIR Imaging
 # Overview
-This repository contains the Jupyter notebooks and code for my master's thesis project titled "Enhancing Weed Detection and Segmentation with Advanced Deep Learning Methods Leveraging RGB-NIR Imaging". The goal of this research is to enhance weed detection in agriculture using deep learning models that leverage both RGB and near-infrared (NIR) imaging data. This work contributes to the field of precision agriculture by automating weed management through more accurate and eco-friendly methods.
+This repository contains the Jupyter notebooks and code for my master's thesis project titled "Enhancing Weed Detection and Segmentation with Advanced Deep Learning Methods Leveraging RGB-NIR Imaging". The goal of this research is to enhance weed detection and segmentation in agriculture using deep learning models that leverage both RGB and near-infrared (NIR) imaging data. This work contributes to the field of precision agriculture by automating weed management through more accurate and eco-friendly methods.
 
 # Thesis Summary
 The project addresses improving weed detection and segmentation by integrating NIR data with classical RGB channels. By optimizing CNN architectures, particularly U-Net for segmentation and YOLO models for detection, the thesis demonstrates how combining multispectral data enhances model performance, supporting precision agriculture.
@@ -41,8 +41,9 @@ bash
 Copy code
 git clone https://github.com/yourusername/yourrepository.git
 cd yourrepository
+ ```
 
-# 2. Install the Required Dependencies
+2. Install the Required Dependencies
 bash
 Copy code
 pip install flask transformers datasets tensorflow yolov5 yolov8 scikit-image
@@ -52,14 +53,13 @@ To run the notebooks, use the following steps:
 
 Launch Jupyter Notebook
 
-bash
-Copy code
-jupyter notebook
+
 Open the Desired Notebook:
 
 Navigate to the cloned repository and open one of the provided .ipynb files (e.g., RGB+NIR.ipynb).
 Run the cells to reproduce the results of the thesis.
 Results
+---
 The key findings of the thesis are as follows:
 
 RGB+NIR Models: By integrating NIR data with RGB, the U-Net model achieved superior segmentation accuracy, particularly for distinguishing weeds from crops.
