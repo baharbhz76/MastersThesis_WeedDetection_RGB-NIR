@@ -43,31 +43,28 @@ git clone https://github.com/yourusername/yourrepository.git
 cd yourrepository
  ```
 
-2. Install the Required Dependencies
-bash
-Copy code
-pip install flask transformers datasets tensorflow yolov5 yolov8 scikit-image
+ ```2. Install the Required Dependencies
 pip install opencv-python
-Running the Notebooks
+ ```
+# Running the Notebooks
 To run the notebooks, use the following steps:
 
 Launch Jupyter Notebook
-
-
 Open the Desired Notebook:
 
 Navigate to the cloned repository and open one of the provided .ipynb files (e.g., RGB+NIR.ipynb).
 Run the cells to reproduce the results of the thesis.
-Results
----
+
+# Results
 The key findings of the thesis are as follows:
 
 RGB+NIR Models: By integrating NIR data with RGB, the U-Net model achieved superior segmentation accuracy, particularly for distinguishing weeds from crops.
 YOLOv8 Object Detection: YOLOv8 outperformed YOLOv5 for real-time object detection tasks, providing higher precision in detecting weeds using RGB data alone.
 NDVI Impact: Adding NDVI data marginally improved segmentation performance, particularly in more challenging scenarios where weeds and crops had similar visual characteristics.
-Contributors
+# Contributors
 Candidate: Bahareh Behrouzi
 Supervisors: Prof. Renato Ferrero, Dr. Nicola Dilillo
 Institution: Politecnico di Torino
-License
+
+# License
 This project is licensed under the MIT License.
