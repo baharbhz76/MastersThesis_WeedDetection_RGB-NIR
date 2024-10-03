@@ -9,11 +9,11 @@ The project addresses improving weed detection and segmentation by integrating N
 # Notebooks
 The repository includes the following notebooks that demonstrate different parts of the research:
 
-# 1. G+NIR.ipynb
+** 1. G+NIR.ipynb
 Description: This notebook focuses on the use of Green (G) and NIR spectral data to perform segmentation tasks. Various image processing techniques and a U-Net-based model are applied.
 Key Methods: Image pre-processing, U-Net segmentation on G+NIR data.
 
-# 2. G+NIR+NDVI.ipynb
+** 2. G+NIR+NDVI.ipynb
 Description: This notebook expands the previous one by adding the NDVI (Normalized Difference Vegetation Index) feature for segmentation. It explores how NDVI data can be used to enhance weed detection.
 Key Methods: U-Net model with G+NIR+NDVI channels for improved weed segmentation.
 
@@ -21,13 +21,15 @@ Key Methods: U-Net model with G+NIR+NDVI channels for improved weed segmentation
 Description: This notebook explores the combination of traditional RGB imaging with NIR data, leveraging a modified U-Net model to accept the four input channels.
 Key Methods: RGB+NIR image processing, U-Net with a custom convolutional layer for four-channel input.
 
-4. Yolov5.ipynb
+# 4. Yolov5.ipynb
 Description: This notebook implements the YOLOv5 model for object detection, focused on detecting weeds and crops using RGB data.
 Key Methods: YOLOv5 for weed detection, training with different image resolutions and model sizes.
-5. Yolov8.ipynb
+
+# 5. Yolov8.ipynb
 Description: This notebook extends the object detection work using the YOLOv8 model, improving the detection accuracy and speed.
 Key Methods: YOLOv8 model, real-time weed detection with RGB images.
-Dataset
+
+# Dataset
 ACRE Dataset: The primary dataset used for object detection tasks, split into training, validation, and testing sets. Images were pre-processed using Roboflow and augmented to enhance training.
 Sunflower Dataset: Used for segmentation tasks, with images representing different growth stages. NDVI and NIR data were applied for better segmentation.
 Installation
